@@ -153,7 +153,6 @@ main{
     color: white;
     border-radius: 5px;
     font-size: 1em;
-
 }
 
 button:hover{
@@ -194,13 +193,12 @@ button:hover{
 
 .footer__list{
     list-style: none;
-}
-
-.footer__list li{
-    font-size: 0.9em;
-    height: auto;
-    text-align: left;
-    padding: 2px;
+    li{
+        font-size: 0.9em;
+        height: auto;
+        text-align: left;
+        padding: 2px;
+    }
 }
 
 /*estilo ubicacion*/
@@ -715,6 +713,8 @@ button:hover{
         height: auto;
     }
 }
+
+// media Querys 
 
 @media only screen and (max-width: 420px){
 

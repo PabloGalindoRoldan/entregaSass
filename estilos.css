@@ -54,7 +54,7 @@ header {
 }
 .header__navbar a:hover {
   text-decoration: none;
-  color: white;
+  color: #fff;
   background-color: #344957;
 }
 
@@ -88,7 +88,7 @@ main {
 }
 
 .index__encabezado__main {
-  color: white;
+  color: #fff;
 }
 
 .tarjeta {
@@ -108,7 +108,7 @@ main {
   width: 25vw;
   height: auto;
   padding: 10px;
-  background-color: white;
+  background-color: #fff;
 }
 .tarjeta__contenido :hover .tarjeta__img {
   filter: grayscale(0%);
@@ -149,7 +149,7 @@ main {
   margin-right: auto;
   border: none;
   background-color: #344957;
-  color: white;
+  color: #fff;
   border-radius: 5px;
   font-size: 1em;
 }
@@ -360,43 +360,43 @@ button:hover {
 .tablaitem1 {
   grid-area: ti1;
   background-color: #344957;
-  color: white;
+  color: #fff;
 }
 
 .tablaitem2 {
   grid-area: ti2;
   background-color: #344957;
-  color: white;
+  color: #fff;
 }
 
 .tablaitem3 {
   grid-area: ti3;
   background-color: #344957;
-  color: white;
+  color: #fff;
 }
 
 .tablaitem4 {
   grid-area: ti4;
   background-color: #344957;
-  color: white;
+  color: #fff;
 }
 
 .tablaitem5 {
   grid-area: ti5;
   background-color: #344957;
-  color: white;
+  color: #fff;
 }
 
 .tablaitem6 {
   grid-area: ti6;
   background-color: #344957;
-  color: white;
+  color: #fff;
 }
 
 .tablaitem7 {
   grid-area: ti7;
   background-color: #344957;
-  color: white;
+  color: #fff;
 }
 
 .tablaitem8 {

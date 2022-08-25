@@ -4,12 +4,18 @@
     box-sizing: border-box;
 }
 
+$color1: #c1ced6;
+$color2: #344957;
+$color3: #121d24;
+$color4: #fff;
+$color5: #c1ced676;
+
 body{
     font-family: PT Sans;
 }
 
 header{
-    background-color: #c1ced6;
+    background-color: $color1;
     position: fixed;
     top: 0;
     left: 0;
@@ -55,8 +61,8 @@ header{
     
     a:hover{
         text-decoration: none;
-        color: white;
-        background-color: #344957;
+        color: $color4;
+        background-color: $color2;
     }
     }
 
@@ -74,12 +80,12 @@ header{
 
 main{
     margin-top: 18vh;
-    color: #344957;
+    color: $color2;
     padding-bottom: 5vh;
 }
 
 .index__main{
-    background-color: #344957;
+    background-color: $color2;
 }
 
 .encabezado__main{
@@ -90,7 +96,7 @@ main{
 }
 
 .index__encabezado__main{
-    color: white;
+    color: $color4;
 }
 
 .tarjeta{
@@ -105,12 +111,12 @@ main{
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    border: 0.3rem solid #344957;
+    border: 0.3rem solid $color2;
     border-radius: 3px;
     width: 25vw;
     height: auto;
     padding: 10px;
-    background-color: white;
+    background-color: $color4;
     
     :hover .tarjeta__img{
         filter: grayscale(0%);
@@ -149,8 +155,8 @@ main{
     margin-left: auto;
     margin-right: auto;
     border: none;
-    background-color: #344957;
-    color: white;
+    background-color: $color2;
+    color: $color4;
     border-radius: 5px;
     font-size: 1em;
 }
@@ -162,7 +168,7 @@ button:hover{
 
 .footer{
     bottom: 0;
-    background-color: #c1ced6;
+    background-color: $color1;
     width: 100%;
     height: 15%;
     display: flex;
@@ -232,25 +238,25 @@ button:hover{
         width: 100%;
         padding: 5px;
         border: none;
-        background-color: #121d24;
-        color: #fff;
+        background-color: $color3;
+        color: $color4;
         color-scheme: dark;
     }
 
     input::placeholder{
-        color: #c1ced6;
+        color: $color1;
         font-family: 'PT Sans', sans-serif;
     }
 
     textarea{
-        background-color: #121d24;
-        color: #fff;
+        background-color: $color3;
+        color: $color4;
         width: 100%;
         padding: 10px;
     }
 
     textarea::placeholder{
-        color: #c1ced6;
+        color: $color1;
     }
 }
 
@@ -290,7 +296,7 @@ button:hover{
     flex-direction: column;
     gap: 20px;
     padding: 40px;
-    background-color: #c1ced676;
+    background-color: $color5;
 
     form{
         display: flex;
@@ -330,7 +336,7 @@ button:hover{
     flex-direction: column;
     gap: 20px;
     padding: 40px;
-    background-color: #c1ced676;
+    background-color: $color5;
 
     form{
         display: flex;
@@ -373,49 +379,49 @@ button:hover{
 
 .tablaitem1{
     grid-area: ti1;
-    background-color: #344957;
-    color: white;
+    background-color: $color2;
+    color: $color4;
 }
 
 .tablaitem2{
     grid-area: ti2;
-    background-color: #344957;
-    color: white;
+    background-color: $color2;
+    color: $color4;
 }
 
 .tablaitem3{
     grid-area: ti3;
-    background-color: #344957;
-    color: white;
+    background-color: $color2;
+    color: $color4;
 }
 
 .tablaitem4{
     grid-area: ti4;
-    background-color: #344957;
-    color: white;
+    background-color: $color2;
+    color: $color4;
 }
 
 .tablaitem5{
     grid-area: ti5;
-    background-color: #344957;
-    color: white;
+    background-color: $color2;
+    color: $color4;
 }
 
 .tablaitem6{
     grid-area: ti6;
-    background-color: #344957;
-    color: white;
+    background-color: $color2;
+    color: $color4;
 }
 
 .tablaitem7{
     grid-area: ti7;
-    background-color: #344957;
-    color: white;
+    background-color: $color2;
+    color: $color4;
 }
 
 .tablaitem8{
     grid-area: ti8;
-    background-color: #c1ced676;
+    background-color: $color5;
 }
 
 .tablaitem9{
@@ -425,7 +431,7 @@ button:hover{
 
 .tablaitem10{
     grid-area: ti10;
-    background-color: #c1ced676;
+    background-color: $color5;
 }
 
 .tablaitem11{
@@ -435,7 +441,7 @@ button:hover{
 
 .tablaitem12{
     grid-area: ti12;
-    background-color: #c1ced676;
+    background-color: $color5;
 }
 
 .tablaitem13{
@@ -581,7 +587,7 @@ button:hover{
         position: absolute;
         width: 100%;
         height: 2px;
-        background-color: #121d24;
+        background-color: $color3;
         transition-duration: .25s;
     }
 
@@ -613,7 +619,7 @@ button:hover{
     .menu__item {
         display: block;
         padding: 24px 24px;
-        color: #121d24;
+        color: $color3;
         font-family: 'Quicksand', sans-serif;
         font-size: 25px;
         font-weight: 600;
